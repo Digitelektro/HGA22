@@ -1,0 +1,84 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\BandPassFilter.o
+Folder=Intermediary
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\iq.o
+Folder=Intermediary
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\main.o
+Folder=Intermediary
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\singen.o
+Folder=Intermediary
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\HGA22.cof
+Folder=Output
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\Documents and Settings\Gyuri\Asztal\PIC\HGA22\HGA22.hex
+Folder=Output
+DeviceName=dsPIC33EP512MC502
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)|C:\Program Files\Microchip\xc16\v1.26\src\libm||$(INCDIR)|C:\Program Files\Microchip\xc16\v1.26\inc||$(LIBDIR)|C:\Program Files\Microchip\xc16\v1.26\lib||$(LKRDIR)||
+SOLK=<src>|BandPassFilter.c|iq.c|main.c|singen.c||<obj>||<lib>|C:\Program Files\Microchip\xc16\v1.26\lib\libdsp-coff.a||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{B1442D91-FF1F-4E60-9714-C39C1BA9DB62}=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-gcc.exe
+tool_loc{6836D8CA-42BB-48FB-9E77-3F0AA8005073}=C:\Program Files\Microchip\xc16\v1.26\bin\xc16-ld.exe
